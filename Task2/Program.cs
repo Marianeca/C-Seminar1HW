@@ -9,9 +9,9 @@ int.TryParse(Console.ReadLine()!, out b);
 
 if (a < b)
 {
-    Console.Write($"max = {b}\n");
+    Console.Write($"max = {b} min = {a}\n");
 }
 else
 {
-    Console.Write($"max = {a}\n");
+    Console.Write($"max = {a} min = {b}\n");
 }
